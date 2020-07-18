@@ -51,9 +51,11 @@ main {
     margin-top: 1rem;
     a {
       padding: 0.4rem;
-    }
-    &:hover {
-      color: $secondary-color;
+
+      &:hover {
+        color: $secondary-color;
+        transition: all 0.5s ease-out;
+      }
     }
   }
 }
