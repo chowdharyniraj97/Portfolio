@@ -84,6 +84,7 @@
       height: 250px;
       background: url("../img/profile.jpg");
       border-radius: 50%;
+      background-size: cover;
       border: solid 3px $secondary-color;
     }
   }
